@@ -1,4 +1,12 @@
 theme: minima
 title: 梤观 · Fenguan
 description: Systematic Works | Interdisciplinary Studies, Chinese Philosophy, Zhuangzi & Xunzi
-author: 梤观 (Fenguan)
+
+# 顶部横向导航（以后新增独立md页面再加）
+minima:
+  nav_pages:
+    - index.md
+    - about.md
+
+# 页脚版权信息
+footer_text: "© 梤观 Fenguan | Preprints licensed under CC BY 4.0"
