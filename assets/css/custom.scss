@@ -28,3 +28,34 @@ li {
   margin-bottom: 0.6rem;
 }
 
+// ========== 页脚 RSS ==========
+.feed-subscribe {
+  margin-bottom: 1rem;
+}
+
+// ========== 页脚竖排菜单 ==========
+.footer-nav {
+  display: flex;
+  flex-direction: column;   // 关键：竖排，不要横排
+  margin-bottom: 1.2rem;
+
+  a {
+    display: block;
+    padding: 0.3rem 0;
+    color: #444;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ========== 页脚版权行 ==========
+.footer-copyright {
+  font-size: 0.75rem;
+  color: #888;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 0.9rem;
+  margin-bottom: 0;
+}
