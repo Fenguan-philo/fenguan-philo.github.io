@@ -21,3 +21,7 @@ minima:
   skin: auto
   # 关闭默认的站点标题在页面正文渲染（Minima新版支持这个参数）
   page_title: false
+
+# config末尾
+stylesheets:
+  - assets/css/custom.scss
