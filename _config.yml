@@ -1,13 +1,23 @@
 theme: minima
-title: 梤观 · Fenguan
-description: Systematic Works | Interdisciplinary Studies, Chinese Philosophy, Zhuangzi & Xunzi
-author: 梤观 (Fenguan)
 
-# 顶部横向导航（以后新增独立md页面再加）
+# 站点基础信息（导航栏、浏览器标签、RSS、SEO读取这里）
+title: "梤观 Fenguan"
+author: "梤观 Fenguan"
+description: >
+  Independent Researcher | Interdisciplinary Studies, Sociology, Comparative Civilizations, Chinese Philosophy, Zhuangzi & Xunzi.
+  This site hosts a systematic body of works, preprints released continuously on Zenodo.
+
+# 语言
+locale: en_US
+
+# 导航菜单（后续你新增posts札记页、归档页，在这里添加）
+header_pages:
+  - index.md
+  - posts.md
+  - archive.md
+
+# Minima主题配置
 minima:
-  nav_pages:
-    - index.md
-    - about.md
-
-# 页脚版权信息
-footer_text: "© 梤观 Fenguan | Preprints licensed under CC BY 4.0"
+  skin: auto
+  # 关闭默认的站点标题在页面正文渲染（Minima新版支持这个参数）
+  page_title: false
