@@ -28,17 +28,18 @@ li {
   margin-bottom: 0.6rem;
 }
 
-// ========== 页脚 RSS ==========
-.feed-subscribe {
-  margin-bottom: 1rem;
-}
-
 // ========== 页脚竖排菜单 ==========
 .footer-nav {
   display: flex;
   flex-direction: column;   // 关键：竖排，不要横排
   margin-bottom: 1.2rem;
+}
 
+// ========== 页脚 RSS ==========
+.feed-subscribe {
+  margin-bottom: 1rem;
+
+  
   a {
     display: block;
     padding: 0.3rem 0;
