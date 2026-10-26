@@ -2,7 +2,17 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
+    
 
+        <!-- 竖排导航菜单 -->
+    <nav class="footer-nav">
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/about" | relative_url }}">About</a>
+      <a href="{{ "/blog" | relative_url }}">Blog</a>
+      <a href="{{ "/services" | relative_url }}">Services</a>
+    </nav>
+
+    
     <!-- RSS 订阅源，保留 -->
     <p class="feed-subscribe">
       <a href="{{ 'feed.xml' | relative_url }}">
@@ -10,13 +20,6 @@
       </a>
     </p>
 
-    <!-- 竖排导航菜单 -->
-    <nav class="footer-nav">
-      <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/about" | relative_url }}">About</a>
-      <a href="{{ "/blog" | relative_url }}">Blog</a>
-      <a href="{{ "/services" | relative_url }}">Services</a>
-    </nav>
 
     <!-- 版权声明 -->
     <p class="footer-copyright">
