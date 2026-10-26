@@ -2,21 +2,33 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS Feed</span>
-          </a>
-        </p>
-      </div>
-      <div class="footer-col footer-col-2">
-        <p class="footer-desc">
-          Independent Researcher | Interdisciplinary Studies, Chinese Philosophy, Zhuangzi & Xunzi.
-          This site hosts a systematic body of works, preprints released continuously on Zenodo.
-        </p>
-      </div>
-    </div>
+
+    <!-- RSS 订阅源，保留 -->
+    <p class="feed-subscribe">
+      <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS Feed</span>
+      </a>
+    </p>
+
+    <!-- 竖排导航菜单 -->
+    <nav class="footer-nav">
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/about" | relative_url }}">About</a>
+      <a href="{{ "/blog" | relative_url }}">Blog</a>
+      <a href="{{ "/services" | relative_url }}">Services</a>
+    </nav>
+
+    <!-- 站点简介 -->
+    <p class="footer-desc">
+      Independent Researcher | Interdisciplinary Studies, Chinese Philosophy, Zhuangzi &amp; Xunzi.
+    </p>
+
+    <!-- 版权声明 -->
+    <p class="footer-copyright">
+      &copy; 2026 Fenguan (梤观) &middot; All works released under CC BY 4.0 unless otherwise stated.
+    </p>
+
   </div>
 </footer>
+
 
