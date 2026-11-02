@@ -10,7 +10,7 @@
   </style>
 
   <div class="wrapper">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem; border-bottom:1px solid #ddd; padding-bottom:1.2rem;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem; border-bottom:0px solid #ddd; padding-bottom:1.2rem;">
       <nav class="footer-nav">
         <a href="{{ "/" | relative_url }}" style="margin-right:1.6rem; color:#444; text-decoration:none;">Home</a>
         <a href="{{ "/about" | relative_url }}" style="margin-right:1.6rem; color:#444; text-decoration:none;">About</a>
@@ -19,7 +19,7 @@
       </nav>
       <p style="margin:0;">
         <a href="{{ 'feed.xml' | relative_url }}" style="color:#444; text-decoration:none;">
-          <svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span></span>
+          <svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>RSS Feed</span>
         </a>
       </p>
     </div>
